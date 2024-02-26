@@ -1,12 +1,12 @@
 import './App.css';
 import GetDate from './components/Date';
-import Form from './components/Form';
+import MyTask from './components/Home';
 
 function App() {
   return (
     <div className="App">
       <GetDate/>
-      <Form/>
+      <MyTask/>
     </div>
   );
 }
