@@ -2,12 +2,13 @@ body {
   background-color: rgb(60, 66, 74);
   color: rgb(226, 226, 226);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
 .date {
   margin-top: 50px;
+  margin-bottom: 7%;
 }
 
 .date h4 {
@@ -15,22 +16,45 @@ body {
   color: rgb(175, 175, 175);
 }
 
+.form input[input="text"] {
+  background-color: rgb(41, 46, 51);
+}
+
 .preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: solid rgb(41, 46, 51);
+  text-align: left;
 }
 
 .preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 3px 5px 7px rgba(0,0,0,0.1);
 }
 
 .preview h3 {
   font-size: 15px;
   color: rgb(226, 226, 226);
-  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.preview p {
+  font-size: 12px;
+  color: rgb(161, 161, 161);
 }
 
 .preview a {
   text-decoration: none !important;
+}
+
+.preview .checkbox input[type="checkbox"] {
+  background-color: rgb(41, 46, 51);
+  border: none;
+}
+
+.preview .checkbox input:focus {
+  border: none;
+}
+
+.preview .checkbox input:hover {
+  cursor: pointer;
 }
