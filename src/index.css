@@ -16,8 +16,31 @@ body {
   color: rgb(175, 175, 175);
 }
 
-.form input[input="text"] {
+.form .input-group-prepend {
   background-color: rgb(41, 46, 51);
+}
+
+.form .form-control {
+  background-color: rgb(41, 46, 51);
+  border: none;
+}
+
+.form .form-control::placeholder {
+  color: rgb(161, 161, 161)
+}
+
+.form .input-group-text {
+  background-color: rgb(41, 46, 51);
+  border: none;
+  color: rgb(161, 161, 161);
+}
+ 
+.form .input-group-text:focus {
+  border: none;
+}
+
+.form .input-group-text:hover {
+  border: none;
 }
 
 .preview {
