@@ -1,6 +1,9 @@
 body {
   background-color: rgb(60, 66, 74);
   color: rgb(226, 226, 226);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  margin: auto;
 }
 
 .date {
@@ -8,5 +11,26 @@ body {
 }
 
 .date h4 {
+  padding: 10px;
   color: rgb(175, 175, 175);
+}
+
+.preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: solid rgb(41, 46, 51);
+}
+
+.preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.preview h3 {
+  font-size: 15px;
+  color: rgb(226, 226, 226);
+  margin-bottom: 6px;
+}
+
+.preview a {
+  text-decoration: none !important;
 }

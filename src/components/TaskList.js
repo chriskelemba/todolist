@@ -8,7 +8,7 @@ const TaskList = ({tasks,name}) => {
             {tasks.map((task) => (
                 <div className="preview" key={task.id}>
                     <Link to={`/Task-details/${task.id}`}>
-                        <h3>{task.name}</h3>
+                        <h3 className="text text-left">{task.name}</h3>
                     </Link>
                 </div>
             ))}

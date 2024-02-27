@@ -1,5 +1,6 @@
 import './App.css';
 import GetDate from './components/Date';
+import Form from './components/Form';
 import MyTask from './components/Home';
 import TaskDetails from './components/TaskDetails';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
@@ -9,6 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <GetDate/>
+        <Form/>
         <div className="Content">
           <Switch>
             <Route exact path="/">

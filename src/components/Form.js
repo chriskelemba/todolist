@@ -1,29 +1,14 @@
 const Form = () => {
     return (
         <div>
-            <form>
-                <div className="w-50 p-3 mx-auto text-start">
-                    <div className="form-group">
-                        <label className="mb-1">Task Name</label>
-                        <input type="text" className="form-control" name="title"/><br/>
+            <form className="form">
+                <div className="input-group p-3 mx-auto">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg></span>
                     </div>
-                    <div className="form-group">
-                        <label className="mb-1">Task Details</label>
-                        <textarea className="form-control" rows="4" cols="50" name="body"/>
-                    </div>
-                    <div className="form-group d-flex">
-                        <div className="w-50">
-                            <label className="mb-1">Due Date</label>
-                            <input type="date" className="form-control" name="date"/><br/>
-                        </div>
-                        <div className="w-50">
-                            <label className="mb-1">Due Date</label>
-                            <input type="date" className="form-control" name="date"/><br/>
-                        </div>
-                    </div>
-                    <div className="form-check mt-3 text-center">
-                        <button type="submit" className="btn btn-primary justify-content-center w-25">Add Task</button>
-                    </div>
+                    <input type="text" className="form-control" name="title" placeholder="Add a task..."/><br/>
                 </div>
             </form>
         </div>
