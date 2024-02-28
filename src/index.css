@@ -4,6 +4,10 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 40%;
   margin: auto;
+  border: 3px solid rgb(41, 46, 51);
+  padding: 50px;
+  margin-top: 2%;
+  border-radius: 15px;
 }
 
 .date {
