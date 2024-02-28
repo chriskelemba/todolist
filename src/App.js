@@ -2,7 +2,6 @@ import './App.css';
 import GetDate from './components/Date';
 import Form from './components/Form';
 import MyTask from './components/Home';
-import TaskDetails from './components/TaskDetails';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
 
 function App() {
@@ -15,9 +14,6 @@ function App() {
           <Switch>
             <Route exact path="/">
               <MyTask/>
-            </Route>
-            <Route path="/Task-details/:id">
-              <TaskDetails/>
             </Route>
           </Switch>
         </div>

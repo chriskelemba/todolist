@@ -30,7 +30,11 @@ body {
 }
 
 .form .form-control::placeholder {
-  color: rgb(161, 161, 161)
+  color: rgb(161, 161, 161);
+}
+
+.form .form-control input[type="text"] {
+  color: rgb(161, 161, 161);
 }
 
 .form .input-group-text {
