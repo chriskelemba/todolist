@@ -6,14 +6,14 @@
       "detail": "Dishes, sweeping the living room, picking clothes from outside"
     },
     {
-      "id": "4",
-      "name": "Test Dummy",
-      "detail": "Dishes, sweeping the living room, picking clothes from outside"
+      "id": "bced",
+      "name": "Clean Bedroom",
+      "detail": "Make sure that the bedroom is clean"
     },
     {
-      "id": "5",
-      "name": "Test Dummy",
-      "detail": "Dishes, sweeping the living room, picking clothes from outside"
+      "id": "1a01",
+      "name": "Study",
+      "detail": "Study for the upcoming exam"
     }
   ]
 }
